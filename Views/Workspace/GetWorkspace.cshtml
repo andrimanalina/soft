@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Controller"] = "Espaces de Travail";
+}
+
+<div id="workspace-detail">
+    <div id="w-detail">
+        <div class="row ml-5">
+            <div class="info-box2">
+                <span class="info-box-icon bg-info" workspace-sigle>S</span>
+
+                <div class="info-box-content">
+                    <h3 class="info-box-text"><span workspace-title>Messages</span>  <span class="text-gray" workspace-abrev>[]</span></h3>
+                    <span class="info-box-text small" workspace-website>www.example.com</span>
+                </div>
+            </div>
+            <span class="small small-description" workspace-description>
+                Description about the workspace can be placed here.
+            </span>
+        </div>
+    </div>
+    <hr />
+    <h4 class="container mb-3">
+        <i class="fa fa-table"></i> Mes Tableaux
+    </h4>
+    <div class="form-group mb-3">
+        <div class="row">
+            <div class="input-group col-sm-7"></div>
+            <div class="input-group col-sm-5">
+                <input type="text" class="form-control" id="b-search" placeholder="Rechercher...">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="b-list" class="row">
+
+        <div class="col-lg-3 col-6" board-new data-type="newboard" data-toggle="modal" data-target="#modal-board" style="cursor:pointer">
+            <div class="small-box small-box2 wsbg-create">
+                <div class="inner">
+                    <h5 class="b-name fw-bold text-bold">Créer un tableau</h5>
+                    <br/><br/>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/boards.js"></script>

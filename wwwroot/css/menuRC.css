@@ -1,0 +1,45 @@
+.menuRC{
+    position: absolute;
+}
+
+.menuRC ul {
+    list-style: none;
+}
+
+.menuRC .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+    padding: 10px 0;
+}
+
+.menuRC .menu > li > div {
+    font: inherit;
+    border: 0;
+    padding: 10px 30px 10px 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: unset;
+    color: #808080;
+    font-weight: 500;
+    transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -ms-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+
+}
+
+.menuRC .menu > li > div > i {
+    padding-right: 10px;
+}
+
+
+.menuRC .menu > li > div:hover {
+    background: #f9f9f9;
+    cursor:pointer;
+}

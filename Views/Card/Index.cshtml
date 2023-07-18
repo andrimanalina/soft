@@ -1,0 +1,45 @@
+﻿
+<div class="container-fluid mb-1">
+    <div class="row justify-content-between pl-3 pr-3">
+        <div class="row">
+            <div class="btn border-right text-bold" data-name="b-title">My Project</div>
+            <div class="btn" data-name="b-favoris"><i class="fa fa-star text-muted"></i></div>
+        </div>
+        <div class="row justify-content-sm-end">
+            <div class="btn btn-default btn-flat" data-name="b-visibility"><i class="fa fa-unlock"></i> <div class="d-none d-sm-inline">Public</div></div>
+            <div class="btn btn-default btn-flat" data-name="b-filter"><i class="fa fa-filter"></i> <div class="d-none d-sm-inline">Filter</div></div>
+            <div class="btn btn-default btn-flat" data-name="b-partage"><i class="fa fa-user-plus"></i> <div class="d-none d-sm-inline">Partager</div></div>
+            <div class="btn btn-default btn-flat" data-name="b-option"><i class="fa fa-ellipsis-h"></i></div>
+        </div>
+    </div>
+</div>
+<div class="content-wrapper kanban bg-transparent" style="margin:0 !important;">
+    <section class="content">
+        <div class="container-fluid h-100 bg-transparent" style="margin:0 !important;align-items: flex-start !important;" board-id="">
+            <!--States & Card List-->
+            <div class="card card-row card-transparent" id="state-new">
+                <div class="card-header" id="state-plus">
+                    <h3 class="card-title">
+                        <i class="fa fa-plus"></i> Ajouter une Liste
+                    </h3>
+                </div>
+                <div id="state-add">
+                    <div class="card-header inputAddList">
+                        <input type="text" class="card-title form-control" placeholder="Saisissez le titre de la liste..." id="state-input" />
+                    </div>
+                    <div class="card-body row">
+                        <div class="btn btn-primary col-6 ml-1" id="state-create">Ajouter une liste</div>
+                        <i class="fa fa-times col-2 cancelList" id="state-cancel"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<partial name="~/Views/Utils/CardModal.cshtml" />
+
+<script src="~/lib/sortablejs/sortable.js"></script>
+
+<script src="~/js/state.js"></script>
+<script src="~/js/card.js"></script>

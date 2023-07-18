@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SoftTrello
+build_property.RootNamespace = SoftTrello
+build_property.ProjectDir = C:\Projet\Dev\Local\Trello\SoftTrello\SoftTrello\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projet\Dev\Local\Trello\SoftTrello\SoftTrello
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Authentication/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Board/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Card/Index - Copier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxJbmRleCAtIENvcGllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Card/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Utils/CardModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbHNcQ2FyZE1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Utils/WorkspaceModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbHNcV29ya3NwYWNlTW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Workspace/GetWorkspace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3NwYWNlXEdldFdvcmtzcGFjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Workspace/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya3NwYWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projet/Dev/Local/Trello/SoftTrello/SoftTrello/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-h831ndu9p0

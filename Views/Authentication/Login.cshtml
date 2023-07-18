@@ -1,0 +1,111 @@
+﻿@{
+	Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SoftSign</title>
+
+	<!-- CSS -->
+	<link href="~/css/login.css" rel="stylesheet" />
+
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/admlte/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/admlte/plugins/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+	<!-- Fin CSS -->
+	<!-- JS -->
+	<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/admlte/dist/js/adminlte.js"></script>
+	<script src="~/admlte/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="~/js/widgets.js"></script>
+	<!-- Fin JS -->
+
+</head>
+<body>
+	<header>
+		<nav class="navbar1">
+			<div class="style">
+				<div class="logo"><a href="#">Soft<span>Trello.</span></a></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--home-->
+		<section class="home1">
+			<div class="style">
+				<div class="home1-content">
+					<div class="t1">Gestion de projet avec</div>
+					<div class="t2"><span>Softwell Madagascar</span></div>
+					<div class="t3"><span>#</span><span class="typing"></span></div>
+					<br>
+					<button data-bs-toggle="modal" data-bs-target="#modal_login">Se Connecter</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="foot1">
+			<div class="foot1-left">copyright &COPY; 2022 </div>
+			<div class="foot1-right">By <a href="http://www.softwell.mg" style="text-decoration : none">Softwell</a></div>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="modal_login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog" style="margin-top:10%">
+			<div class="modal-content login_modal_bg">
+				<div class="modal-header bg-primary bg-gradient login_modal_boreder">
+					<h6 class="modal-title text-white fw-bold"><i class="fa fa-user"></i> Login</h6>
+					<span class="close text-white" aria-hidden="true" data-bs-dismiss="modal" aria-label="Close">&times;</span>
+				</div>
+				<div class="modal-body text-white">
+					<div class="login-card-body">
+						<div>
+							<div class="input-group mb-3">
+								<input type="text" class="form-control login_input" id="login_username" placeholder="Nom d'utilisateur / Mail">
+								<div class="input-group-append">
+									<div class="login_icon bg-primary bg-gradient">
+										<span class="fas fa-user" style="line-height: 25px"></span>
+									</div>
+								</div>
+							</div>
+							<div class="input-group mb-3">
+								<input type="password" class="form-control login_input" id="login_password" placeholder="Mot de Passe">
+								<div class="input-group-append">
+									<div class="login_icon bg-primary bg-gradient">
+										<span class="fas fa-lock" style="line-height: 25px"></span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 text-center">
+									<button class="btn bg-primary bg-gradient text-white btn-block" onclick="login()" id="login_submit">Se Connecter</button>
+								</div>
+							</div>
+							<div class="text-danger" id="login_error"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+		<div class="alert alert-danger d-flex align-items-center" role="alert">
+			<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill" /></svg>
+			<div>
+				An example danger alert with an icon
+			</div>
+		</div>
+	-->
+	<!-- Script JS-->
+	<script>
+		let Origin = '@ViewBag.Root';
+	</script>
+	<script src="~/js/typed.min.js"></script>
+	<script src="~/js/login.js"></script>
+	<!-- Fin Script JS-->
+</body>
+</html>

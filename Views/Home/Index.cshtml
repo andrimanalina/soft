@@ -1,0 +1,132 @@
+﻿<div class="ml-3">
+    <h2 class="">Mes Tâches</h2>
+</div>
+<br />
+
+<div class="card ml-3 mr-3">
+    <div class="card-header">
+        <span class="text-bold">A Faire</span>
+    </div>
+    <div class="card-body">
+        <div id="MyTasks">
+            <!--Today-->
+            <div class="">
+                <div class="" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn" data-toggle="collapse" data-target="#TaskToday" aria-expanded="true">
+                            <span class="text-bold"><i class="caret fa fa-caret-right"> </i> Aujourd'hui </span><span class="small" task-today-count> (5)</span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="TaskToday" class="collapse">
+                    <!--task-->
+                    <div class="card ml-3 mr-3" task-today>
+                        <div class="list-group list-group-flush" >
+                            <div class="list-group-item text-gray d-flex justify-content-between align-items-center border" task-id="">
+                                <div>
+                                    <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                                </div>
+                                <div class="d-flex text-gray" task-option>
+                                    <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Late-->
+            <div class="">
+                <div class="">
+                    <h5 class="mb-0">
+                        <button class="btn" data-toggle="collapse" data-target="#TaskLate" aria-expanded="true">
+                            <span class="text-bold"><i class="caret fa fa-caret-right"> </i> En retard </span><span class="small" task-today-count> (5)</span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="TaskLate" class="collapse">
+                    <!--task-->
+                    <div class="card ml-3 mr-3" task-today>
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item text-gray d-flex justify-content-between align-items-center" task-id="">
+                                <div>
+                                    <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                                </div>
+                                <div class="d-flex text-gray" task-option>
+                                    <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                                </div>
+                            </div>
+
+                            <div class="list-group-item text-gray d-flex justify-content-between align-items-center" task-id="">
+                                <div>
+                                    <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                                </div>
+                                <div class="d-flex text-gray" task-option>
+                                    <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                                </div>
+                            </div>
+
+                            <div class="list-group-item text-gray d-flex justify-content-between align-items-center" task-id="">
+                                <div>
+                                    <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                                </div>
+                                <div class="d-flex text-gray" task-option>
+                                    <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Suivant-->
+            <div class="">
+                <div class="">
+                    <h5 class="mb-0">
+                        <button class="btn" data-toggle="collapse" data-target="#TaskNext" aria-expanded="true">
+                            <span class="text-bold"><i class="caret fa fa-caret-right"> </i> Suivant </span><span class="small" task-today-count> (5)</span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="TaskNext" class="collapse">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card ml-3 mr-3">
+    <div class="card-header">
+        <span class="text-bold">Terminé</span>
+    </div>
+    <div class="card-body">
+        <div id="Finished">
+            <div class="card">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item text-gray d-flex justify-content-between align-items-center" task-id="">
+                        <div>
+                            <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                        </div>
+                        <div class="d-flex text-gray" task-option>
+                            <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item text-gray d-flex justify-content-between align-items-center" task-id="">
+                        <div>
+                            <i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Définir comme terminé" task-check></i> <span class="link-danger" task-name>TaskName1</span>
+                        </div>
+                        <div class="d-flex text-gray" task-option>
+                            <div task-delete><i class="fa fa-trash-alt"> </i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/home.js"></script>
